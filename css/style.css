@@ -20,6 +20,10 @@ body {
     align-items: center;
 }
 
+.flex-between {
+    justify-content: space-between;
+}
+
 .row {
     display: flex;
 }
@@ -117,3 +121,55 @@ header {
     background-color: #1dd1a1;
     position: relative;
 }
+
+.sign-up h3 {
+    font-size: 4rem;
+}
+
+.sign-up input {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    border: 1px solid #feca57;
+    border-radius: .6rem;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+}
+
+.sign-up button {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1.4rem;
+    border: 1px solid #feca57;
+    cursor: pointer;
+    background-color: white;
+    border-radius: .6rem;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.sign-up button:hover {
+    color: white;
+    background-color: black;
+    transition: all .3s;
+}
+
+.sign-up .dist {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.sign-up h4 {
+    font-size: 1.7rem;
+    user-select: none;
+}
+
+.sign-up h4 span {
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+.sign-up h4 span:hover {
+    color: white;
+    transition: all .3s;
+}
+
+/* End of Section */
